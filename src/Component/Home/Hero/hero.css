@@ -1,0 +1,66 @@
+.hero{
+    background-image: url('../../../assets/images/hero3.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero .container{
+    padding-top: 10%;
+    align-items: center;
+    text-align: center;
+    
+}
+.hero .container h1{
+    font-weight: 700;
+    font-size: 80px;
+    color: #FAF3E0;
+    text-transform: capitalize;
+   
+}
+.hero .container p{
+    color: rgb(201, 186, 164);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-transform: capitalize;
+     background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent plus foncé */
+    color: #FAF3E0; /* Blanc cassé pour un meilleur contraste */
+   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la visibilité */
+    padding: 10px 20px;
+    border-radius: 5px;
+    }
+.hero .container p::backdrop{
+    filter: blur(3.5px);
+
+}
+.hero .container button{
+    margin-top: 14px;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .hero .container{
+        padding-top: 10%;
+        align-items: start;
+        text-align: start;
+        
+    }
+    .hero .container h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    }
+    .hero .container p{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 6px;
+        line-height: 25px;
+        word-spacing: 5px;
+        
+    }
+
+    
+}

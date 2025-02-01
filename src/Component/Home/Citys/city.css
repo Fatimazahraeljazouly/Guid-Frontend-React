@@ -1,0 +1,89 @@
+.city {
+/*     background-color: rgb(244, 225, 189); /* Couleur douce pour l'arrière-plan */  
+}
+
+.city .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.city .container .box {
+    cursor: pointer;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(247, 245, 241);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 100%;
+    max-width: 350px; /* Contrôle de la largeur max */
+}
+
+/* Effet au survol */
+.city .container .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(138, 129, 112, 0.3);
+}
+
+.box span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(224, 218, 210);
+    border-radius: 8px;
+    color: rgb(100, 64, 27);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.box h5 {
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(100, 64, 27);
+}
+
+.box label {
+    margin-top: 10px;
+    color: rgb(128, 100, 75);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* 📱 Responsive Design */
+@media screen and (max-width: 1000px) {
+    .city .container .box {
+        padding: 22px;
+        max-width: 90%; /* Pour une meilleure adaptation */
+    }
+
+    .box span {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .box h5 {
+        font-size: 18px;
+    }
+
+    .box label {
+        font-size: 12px;
+    }
+}
+
+/* 📱 Responsive pour mobile */
+@media screen and (max-width: 600px) {
+    .city .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .city .container .box {
+        max-width: 100%;
+    }
+}
