@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../../Home/Heading";
 import "./story.css";
 import img from "../../../assets/images/hero1.jpg";
-
+import {motion} from 'framer-motion'
 const Story = () => {
   return (
     <section className="story padding">

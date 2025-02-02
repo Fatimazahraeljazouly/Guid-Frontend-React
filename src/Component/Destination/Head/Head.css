@@ -1,0 +1,18 @@
+.head{
+/*     background-color: rgb(240, 237, 233);
+ */}
+.head .heading h1{
+    font-size: 40px;
+}
+.head p{
+  
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(105, 81, 44);
+    letter-spacing: 1px;
+
+    
+}

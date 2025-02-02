@@ -6,7 +6,6 @@ const Heading = ({title}:{title:string}) => {
       <section className='heading'>
         <div className="container">
             <h1>{title}</h1>
-            <i className="fa-solid fa-fork-knife"></i>
         </div>
       </section>
     </>

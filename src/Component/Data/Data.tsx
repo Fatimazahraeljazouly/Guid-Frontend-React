@@ -4,6 +4,18 @@ import fes from '../../assets/images/ville/Fes.jpg';
 import marrakesh from '../../assets/images/ville/marrakesh.jpg';
 import rabat from '../../assets/images/ville/Rabat.jpg';
 import tangier from '../../assets/images/ville/tanger.jpg';
+import Chefchaouen from '../../assets/images/ville/Chefchaouen.jpg';
+import Ouarzazate from '../../assets/images/ville/Ouarzazate.jpg';
+import Meknes from '../../assets/images/ville/Meknes.jpg';
+import ElJadida from '../../assets/images/ville/El Jadida.jpg';
+import Asilah from '../../assets/images/ville/Asilah.jpg';
+import Nador from '../../assets/images/ville/Nador.jpg';
+import Tétouan from '../../assets/images/ville/Tétouan.jpg';
+import Dakhla from '../../assets/images/ville/Dakhla.jpeg';
+import Ifrane from '../../assets/images/ville/Ifrane.jpeg';
+
+
+
 
 export const cities = [
     {
@@ -51,8 +63,8 @@ export const nav =[
     },
     {
         id:3,
-        path:"/city",
-        name:'City'
+        path:"/destination",
+        name:'Destination'
     },
     {
         id:4,
@@ -194,3 +206,81 @@ export const feedbacks=[
 
     },
 ]
+
+export const destinations = [
+    {
+        cover: casablanca,
+        title: 'Casablanca',
+        description: "it's Morocco’s economic hub, famous for the Hassan II Mosque and modern architecture."
+    },
+    {
+        cover: agadir,
+        title: 'Agadir',
+        description: "famous for its beautiful beaches, resorts, and vibrant nightlife."
+    },
+    {
+        cover: fes,
+        title: 'Fes',
+        description: "is a historic city in Morocco, renowned for its medieval architecture, ancient medina, and rich cultural heritage."
+    },
+    {
+        cover: marrakesh,
+        title: 'Marrakesh',
+        description: "famous for its bustling souks, historic palaces, and the lively Jemaa el-Fnaa square."
+    },
+    {
+        cover: rabat,
+        title: 'Rabat',
+        description: "known for its rich history, beautiful beaches, and landmarks like the Hassan Tower and Royal Palace."
+    },
+    {
+        cover: tangier,
+        title: 'Tangier',
+        description: "known for its rich history, vibrant culture, and stunning views of the Mediterranean Sea and the Atlantic Ocean."
+    },
+    {
+        cover: Chefchaouen,
+        title: 'Chefchaouen',
+        description: 'The "Blue City" known for its picturesque blue-painted streets.'
+    },
+    {
+        cover: Ouarzazate,
+        title: 'Ouarzazate',
+        description: ' The "Gateway to the Sahara," famous for its film studios and Kasbahs.'
+    },
+    {
+        cover: Meknes,
+        title: 'Meknes',
+        description: "A historic imperial city with grand gates and ancient architecture."
+    },
+    {
+        cover: ElJadida,
+        title: 'El Jadida',
+        description: " A coastal city with Portuguese heritage and stunning beaches"
+    },
+    {
+        cover: Asilah,
+        title: 'Asilah',
+        description: "A charming seaside town known for its murals and annual art festival."
+    },
+    {
+        cover: Nador,
+        title: 'Nador',
+        description: "A northern city with beautiful Mediterranean coastal views."
+    },
+    {
+        cover: Tétouan,
+        title: 'Tétouan',
+        description: "A city with a strong Andalusian influence and a UNESCO-listed medina"
+    },
+    {
+        cover: Dakhla,
+        title: 'Dakhla',
+        description: "A paradise for kitesurfing and desert-meets-ocean landscapes."
+    },
+    {
+        cover: Ifrane,
+        title: 'Ifrane',
+        description: 'Known as "Little Switzerland" for its alpine-style architecture and snowy winters'
+    }
+];
