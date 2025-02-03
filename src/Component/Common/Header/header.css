@@ -40,7 +40,7 @@ header{
 .header .menu ul li  a{
     text-decoration: none;
     font-size: 18px;
-    color: #423012; /* Texte en beige clair pour plus de lisibilité */
+    color: #423012; 
     font-weight: bold;
     padding: 10px 15px;
     transition: 0.3s;
@@ -59,6 +59,46 @@ header{
 
 .header .toggle{
     display: none;
+}
+.authentication {
+    display: flex;
+    justify-content: center;
+    margin: auto 9px;
+   
+}
+.authentication .registerbtn{
+    background-color: #423012;
+    color: #d5c095;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2px;
+    border: 1px solid #423012;
+
+
+}
+.authentication .registerbtn:hover{
+    background-color: #df8804;
+    color: #423012;
+    border: 1px solid #423012;
+}
+.authentication .loginbtn{
+    
+    background-color: #df8804;
+    color: #423012;
+    border: 1px solid #423012;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 2px;
+    padding: 4px 12px;
+}
+.authentication .loginbtn:hover{
+    color: #765823;
+
+
+
 }
 @media screen and (max-width:768px ) {
    header{
@@ -86,6 +126,14 @@ header{
         padding: 20px; 
         transition: 1s;  
     }
+    .authentication .loginbtn{
+        background-color: #dd7017;
+
+    }
+    .authentication .registerbtn:hover{
+        background-color: #dd7017;
+
+    }
       header ul li a  {
         display: block;
         margin-bottom: 20px;
@@ -97,4 +145,29 @@ header{
         display: inline;
         
     }
+ 
+    
 }
+
+@media screen and (max-width:400px) {
+    .header .logo img{
+        width:160px;
+        margin-left: -13px;
+      
+    }
+    .authentication .loginbtn,.registerbtn{
+        padding: 4px 12px;
+        font-size: 9px;
+        font-weight: 200;
+    }
+    .authentication .registerbtn{
+        padding: 4px 12px;
+        font-size: 9px;
+        font-weight: 200;
+    }
+}
+@media (max-width: 230px) {
+    body {
+        overflow-x: auto; /* Permet le défilement horizontal */
+    }
+}   

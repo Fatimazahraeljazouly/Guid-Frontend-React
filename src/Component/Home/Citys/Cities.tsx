@@ -13,8 +13,8 @@ const Cities = () => {
                   return(
                     <div key={index} className='box'>
                        <span> {item.icon}</span>
-                       <h5>{item.title}</h5>
-                       <label htmlFor="">{item.label}</label>
+                       <h5 id='art'>{item.title}</h5>
+                       <p >{item.label}</p>
                     </div>
                   )
                 })}

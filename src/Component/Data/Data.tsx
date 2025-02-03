@@ -284,3 +284,128 @@ export const destinations = [
         description: 'Known as "Little Switzerland" for its alpine-style architecture and snowy winters'
     }
 ];
+
+export const details=[
+    {
+        cover: tangier,
+           ville:'Tanger', 
+           libele:'ttt' ,
+           description:'tttt',
+           location:'ttt',
+           type:'ttt',
+           dateCreation:'ttt',
+           service:'tt',
+           surface:'ttt',
+           category:'Artisanat'
+    },
+    {
+        cover: casablanca,
+        ville:'Casablanca', 
+        libele:'ttt' ,
+        description:'tttt',
+        location:'ttt',
+        type:'ttt',
+        dateCreation:'ttt',
+        service:'tt',
+        surface:'ttt',
+        category:'Artisanat'
+
+ },
+ {
+    cover: rabat,
+
+    ville:'rabat', 
+    libele:'ttt' ,
+    description:'tttt',
+    location:'ttt',
+    type:'ttt',
+    dateCreation:'ttt',
+    service:'tt',
+    surface:'ttt',
+    category:'Gastronomie'
+
+},
+{
+    cover: rabat,
+
+    ville:'Rabat', 
+    libele:'libele' ,
+    description:'description',
+    location:'location',
+    type:'type',
+    dateCreation:'dateCreation',
+    service:'service',
+    surface:'ttt',
+    category:'Artisanat'
+
+},
+{
+    cover: rabat,
+
+    ville:'Rabat', 
+    libele:'libele' ,
+    description:'description',
+    location:'location',
+    type:'type',
+    dateCreation:'dateCreation',
+    service:'service',
+    surface:'ttt',
+    category:'Artisanat'
+
+},
+{
+    cover: rabat,
+
+    ville:'Rabat', 
+    libele:'libele' ,
+    description:'description',
+    location:'location',
+    type:'type',
+    dateCreation:'dateCreation',
+    service:'service',
+    surface:'ttt',
+    category:'Patrimoine'
+
+},
+{
+    cover: rabat,
+
+    ville:'Rabat', 
+    libele:'libele' ,
+    description:'description',
+    location:'location',
+    type:'type',
+    dateCreation:'dateCreation',
+    service:'service',
+    surface:'ttt',
+    category:'Nature'
+},
+{
+    cover: rabat,
+
+    ville:'Rabat', 
+    libele:'libele' ,
+    description:'description',
+    location:'location',
+    type:'type',
+    dateCreation:'dateCreation',
+    service:'service',
+    surface:'ttt',
+    category:'Nature'
+
+},{
+    cover: rabat,
+
+    ville:'Rabat', 
+    libele:'libele' ,
+    description:'description',
+    location:'location',
+    type:'type',
+    dateCreation:'dateCreation',
+    service:'service',
+    surface:'ttt',
+    category:'Loisire'
+
+},
+]
+

@@ -138,10 +138,24 @@ background-color: rgb(94, 70, 25);
     .news-letter input{
         width: 40%;
     }
+    .links ul li a{
+        font-size: 13px;
+    }
+    .contact ul li{
+        font-size: 12px;
+        padding:2px ;
+    }
+    .icons i{
+        padding: 3px;
+    }
 }
 
 @media screen and (max-width:1300px) {
     .news-letter input{
         width: 70%;
     }
+}
+@media screen and ( max-width:480px) {
+   
+    
 }

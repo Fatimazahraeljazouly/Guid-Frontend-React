@@ -1,0 +1,144 @@
+.login .head {
+    top: 0;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.form {
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    width: 35%;
+    margin: -3% auto 4%;
+    z-index: 99999; 
+    background-color: white;
+    height: 64vh;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h3 {
+    padding: 10px 0;
+    text-align: center;
+    color: #814806;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.form h3 a {
+    color: #dd7017;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.form h3 a:hover {
+    text-decoration: underline;
+}
+
+.form span {
+    color: #dd7017;
+    font-weight: bold;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.form form label {
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #814806;
+}
+
+.form form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(102, 72, 49);
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+}
+
+.form form input:focus {
+    background-color: #fdf7e8;
+    border-color: #df8804;
+    box-shadow: 0 0 5px rgba(223, 136, 4, 0.5);
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.divider span {
+    padding: 0 10px;
+    font-weight: 600;
+    color: #814806;
+}
+
+.form button {
+    background-color: #df8804;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.form button:hover {
+    background-color: #c57806;
+}
+.optionLogin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.optionLogin button {
+    width: 100%;
+} 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form {
+        width: 80%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .form form {
+        width: 100%;
+    }
+
+    .form form input {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .form h3 {
+        font-size: 18px;
+    }
+}
