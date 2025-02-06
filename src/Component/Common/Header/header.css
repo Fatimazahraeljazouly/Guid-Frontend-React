@@ -31,6 +31,7 @@ header{
 .header .menu ul li {
     list-style: none;
     padding: 10px;
+   text-decoration: none;
 }
 .menu ul li:hover{
     background-color: #423012;
@@ -64,9 +65,11 @@ header{
     display: flex;
     justify-content: center;
     margin: auto 9px;
+    list-style: none;
+
    
 }
-.authentication .registerbtn{
+.authentication .registerbtn,.profilebtn{
     background-color: #423012;
     color: #d5c095;
     border-radius: 20px;
@@ -83,7 +86,12 @@ header{
     color: #423012;
     border: 1px solid #423012;
 }
-.authentication .loginbtn{
+.authentication .profilebtn:hover{
+    background-color: #df8804;
+    color: #423012;
+    border: 1px solid #423012;
+}
+.authentication .loginbtn,.logout{
     
     background-color: #df8804;
     color: #423012;
@@ -96,10 +104,25 @@ header{
 }
 .authentication .loginbtn:hover{
     color: #765823;
-
-
-
 }
+.authentication .logout:hover{
+    color: #765823;
+}
+/* .authentication  .profilebtn{
+    background-color:  #765823;
+    color: #fe9b05;
+    padding: 9px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.authentication  .profilebtn:hover{
+    background-color: #ff9900;
+    color: #423012;
+} */
+
 @media screen and (max-width:768px ) {
    header{
     height: 19vh;
@@ -126,7 +149,7 @@ header{
         padding: 20px; 
         transition: 1s;  
     }
-    .authentication .loginbtn{
+    .authentication .loginbtn,.logout{
         background-color: #dd7017;
 
     }
@@ -145,8 +168,7 @@ header{
         display: inline;
         
     }
- 
-    
+  
 }
 
 @media screen and (max-width:400px) {
@@ -155,7 +177,7 @@ header{
         margin-left: -13px;
       
     }
-    .authentication .loginbtn,.registerbtn{
+    .authentication .loginbtn,.registerbtn,.logout{
         padding: 4px 12px;
         font-size: 9px;
         font-weight: 200;

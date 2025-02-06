@@ -13,11 +13,14 @@ import Contact from '../Contact/Contact'
 import Details from '../DestinationDetails/Details'
 import Login from '../Auth/Login/Login'
 import Register from '../Auth/Register/Register'
+import Profile from '../Profile/Profile'
+import { AuthProvider } from '../../Utility/UserAuth'
 const Pages = () => {
   return (
     <>
       
       <Router>
+        <AuthProvider>
       <Header/>
         <Routes>
             <Route path='/' element={<Home/>}></Route>
@@ -27,9 +30,11 @@ const Pages = () => {
             <Route path='/details-destination' element={<Details/>} ></Route>
             <Route path='/login' element={<Login/>}></Route>
             <Route path='/register' element={<Register/>}></Route>
+            <Route path='/my-profile' element={<Profile/>}></Route>
         </Routes>
 
       <Footer/>
+      </AuthProvider>
       </Router>
     </>
   )

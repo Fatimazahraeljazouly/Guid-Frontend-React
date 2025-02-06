@@ -24,7 +24,7 @@ const Form = () => {
             <label htmlFor="confirmedPassword">Confirmed Password</label>
             <input type="password" name="confirmedPassword" id="confirmedPassword" />
         
-        <button className='Loginbtn'>Login</button>
+        <button className='Loginbtn'>Register</button>
         <div className="divider">
             <span>OR Register in With </span>
         </div>

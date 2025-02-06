@@ -11,7 +11,7 @@ const Register = () => {
                 <Heading title='Create an Account & Start Exploring'/>
             </div>
             <div className="form">
-                <h3>Does  Already An Account  ? <Link to={'/register'} ><span>Register</span></Link></h3>
+                <h3>Do You Already Have An Account  ? <Link to={'/login'} ><span>Login</span></Link></h3>
                 <Form/>
             </div>
         </section>

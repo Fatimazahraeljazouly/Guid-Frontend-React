@@ -409,3 +409,25 @@ export const details=[
 },
 ]
 
+export const users=[
+    {
+        id:1,
+        fullname:'eljazouly fatima zahra',
+        email:'eljazouly@gmail.com',
+        password:'123456',
+        role:'client',
+        token:'hhhhhhhhhhhhhhhhhhhhh'
+    },  {
+        id:2,
+        fullname:'daniyale mohammed',
+        email:'daniyale@gmail.com',
+        password:'123456',
+        role:'client',
+        token:'xxxx'
+
+    }
+    /*  id: '',
+    email: '',
+    username: '',
+    role: '', */
+]
