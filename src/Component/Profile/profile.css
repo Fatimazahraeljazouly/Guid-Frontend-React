@@ -1,3 +1,59 @@
-.profilebtn button{
-background-color: red;
+.profile-image{
+    margin-top: -4%;
+    display: flex;
+    justify-content: center;
+}
+.profile-image img{
+    border-radius: 50%;
+text-align: center;
+width: 140px;
+box-shadow: 0 3px 16px rgb(97, 55, 38);
+border: 1px solid rgb(112, 71, 54);
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: rgb(112, 71, 54);
+    font-size: 28px;
+}
+.profile-data{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.profile-data .data{
+    padding: 50px 70px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.196);
+}
+.profile-data .data p{
+    font-size: 17px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: rgb(46, 30, 10);
+    box-shadow: 0 1px 4px rgba(95, 54, 19, 0.527);
+}
+.data span{
+    font-weight: bold;
+    color:rgb(112, 71, 54) ;
+}
+.data button{
+   width: 100%;
+   padding: 10px;
+   margin: 10px;
+   border: none;
+}
+@media screen and (max-width:500px){
+    .profile-data .data{
+        padding: 30px 50px;
+    }
+    .profile-data .data p,button{
+        padding: 8px;
+        margin: 8px;
+      
+    }
 }

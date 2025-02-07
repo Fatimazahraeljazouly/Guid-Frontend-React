@@ -14,11 +14,11 @@ import Details from '../DestinationDetails/Details'
 import Login from '../Auth/Login/Login'
 import Register from '../Auth/Register/Register'
 import Profile from '../Profile/Profile'
-import { AuthProvider } from '../../Utility/UserAuth'
+import { AuthProvider} from '../../Utility/UserAuth'
+import ProtectedRoute from '../../Services/ProtectedRoute'
 const Pages = () => {
   return (
-    <>
-      
+    <>  
       <Router>
         <AuthProvider>
       <Header/>
@@ -30,7 +30,9 @@ const Pages = () => {
             <Route path='/details-destination' element={<Details/>} ></Route>
             <Route path='/login' element={<Login/>}></Route>
             <Route path='/register' element={<Register/>}></Route>
-            <Route path='/my-profile' element={<Profile/>}></Route>
+            <Route element={<ProtectedRoute/>}>
+                <Route path='/my-profile' element={<Profile/>}></Route>
+            </Route>
         </Routes>
 
       <Footer/>
